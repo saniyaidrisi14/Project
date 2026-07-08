@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <main>
+    <div class="top">
+      <div class="logo">
+        <h1>📋Task-Manager</h1>
+        <p>Stay Organized • Stay Productive</p>
+      </div>
+      <div class="theme">
+        <button class="theme-btn">Dark-Mode</button>
+      </div>
+      </div>
+      <div class="records">
+        <div class="total rec">
+          <h2>Total Task</h2>
+          <span>0</span>
+        </div>
+        <div class="complete rec">
+          <h2>Complete Task</h2>
+          <span>0</span>
+        </div>
+        <div class="pending rec">
+          <h2>Pending Task</h2>
+          <span>0</span>
+        </div>
+      </div>
+      <div class="task-create">
+        <h1>Create a Task</h1>
+        <h3>Add a new Task-Manager</h3>
+        <div class="task-input">
+          <input type="text" placeholder="Enter your task" />
+
+          <select name="task" id="task">
+            <option value="urgent">Urgent</option>
+            <option value="study">Study</option>
+            <option value="work">Work</option>
+            <option value="Exersice">Exersice</option>
+          </select>
+
+          <button class="add">Add Task</button>
+        </div>
+      </div>
+      <div class="task-show">
+        <h1>Your Tasks</h1>
+      </div>
+    </main>
+  </body>
+  
+  <script src="./script.js"></script>
+</html>
+
